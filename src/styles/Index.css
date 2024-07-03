@@ -12,16 +12,18 @@
 }
 
 .title {
-  font-size: 24px;
+  font-size: 50px;
   color: #2b7a78;
   margin-bottom: 20px;
   text-align: center;
+  padding: 20px;
 }
 
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
+  padding: 20px;
 }
 
 .footer {
