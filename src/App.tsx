@@ -5,7 +5,7 @@ import Footer from './Footer';
 import { FaRegHandshake, FaCode, FaCogs, FaRecycle, FaRocket } from 'react-icons/fa';
 import './styles/Index.css';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className="page-container">
       <div className="content-wrapper">

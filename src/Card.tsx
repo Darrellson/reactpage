@@ -2,13 +2,13 @@ import React from "react";
 import { Card as BootstrapCard } from "react-bootstrap";
 import "./styles/Card.css";
 
-type CardProps = {
+interface CardProps<T> {
   icon: React.ReactNode;
-  title: string;
-  description: string;
-};
+  title: T;
+  description: T;
+}
 
-const Card: React.FC<CardProps> = ({ icon, title, description }) => {
+const Card = <T extends React.ReactNode>({ icon, title, description }: CardProps<T>) => {
   return (
     <BootstrapCard className="text-center m-3 card-custom">
       <BootstrapCard.Body>
