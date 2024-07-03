@@ -2,11 +2,11 @@ import React from "react";
 import { Card as BootstrapCard } from "react-bootstrap";
 import "./styles/Card.css";
 
-interface CardProps<T> {
+type CardProps<T> = {
   icon: React.ReactNode;
   title: T;
   description: T;
-}
+};
 
 const Card = <T extends React.ReactNode>({ icon, title, description }: CardProps<T>) => {
   return (
