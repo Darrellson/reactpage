@@ -1,9 +1,13 @@
 /* src/styles/Footer.css */
 .footer {
-  background-color: #000;
-  color: #fff;
-}
-
-.footer p {
-  margin: 0;
-}
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto; /* Ensure the footer is pushed to the bottom */
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  

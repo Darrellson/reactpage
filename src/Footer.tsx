@@ -5,7 +5,7 @@ import './styles/Footer.css';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer bg-dark text-white py-3">
+    <footer className="footer">
       <Container>
         <Row>
           <Col md="12" className="text-center">
