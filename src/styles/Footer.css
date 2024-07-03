@@ -1,10 +1,9 @@
-/* src/styles/Footer.css */
 .footer {
     background-color: #000;
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    margin-top: auto; /* Ensure the footer is pushed to the bottom */
+    margin-top: auto; 
   }
   
   .footer p {

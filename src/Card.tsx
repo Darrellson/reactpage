@@ -1,4 +1,3 @@
-// src/Card.tsx
 import React from "react";
 import { Card as BootstrapCard } from "react-bootstrap";
 import "./styles/Card.css";
