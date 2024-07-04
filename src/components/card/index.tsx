@@ -1,6 +1,6 @@
 import React from "react";
 import { Card as BootstrapCard } from "react-bootstrap";
-import "./styles/Card.css";
+import '../styles/Card.css';
 
 type CardProps<T> = {
   icon: React.ReactNode;

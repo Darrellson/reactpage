@@ -1,9 +1,8 @@
-import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Card from './Card';
-import Footer from './Footer';
+import Card from './components/card/index';
+import Footer from './components/footer/index';
 import { FaRegHandshake, FaCode, FaCogs, FaRecycle, FaRocket } from 'react-icons/fa';
-import './styles/Index.css';
+import './components/styles/Index.css';
 
 const App = () => {
   return (
@@ -56,6 +55,3 @@ const App = () => {
 };
 
 export default App;
-
-
-// npm install react-bootstrap bootstrap react-icons
